@@ -6,7 +6,7 @@ library(dplyr)
 library(RColorBrewer)
 
 # Set working directory to where CSV file is stored
-setwd('C:/Users/hoang/OneDrive/Desktop/DCS 211')
+setwd('[Insert Your Local Working Directory Here]')
 
 # Define UI
 ui <- fluidPage(
