@@ -6,7 +6,7 @@ library(RColorBrewer)
 library(stringr)
 
 # Set working directory to where CSV file is stored
-setwd('C:/Users/hoang/OneDrive/Desktop/DCS 211')
+setwd('[Insert your working directory here]')
 
 # Read the data
 sp500_data <- read_csv("sp500_data.csv")
