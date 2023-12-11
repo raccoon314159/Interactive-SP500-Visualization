@@ -194,8 +194,3 @@ ggplot(combined_recovery, aes(x = factor(Recession, levels = c("Dot-com bubble b
     legend.title = element_blank(),
     axis.text.x = element_text(angle = 0, hjust = 0.5)  # Horizontal x-axis text for readability
   )
-
-#an interactive model - sequential search 
-# use shiny package to make the days to recover interactive 
-#users can choose what date that is considered the start of the recession and the recover point (set the recovery point to equal to the start of the recession set by users)
-#sequentially search for the recovery date - use a simple for-loop counter to count the days of recovery
