@@ -1,4 +1,9 @@
 # Load necessary libraries
+#install.packages('shiny')
+#install.packages('ggplot2')
+#install.packages('readr')
+#install.packages('dplyr')
+#install.packages('RColorBrewer')
 library(shiny)
 library(ggplot2)
 library(readr)
